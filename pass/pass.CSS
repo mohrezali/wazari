@@ -1,0 +1,441 @@
+body{
+    padding:0%;
+    margin:0%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+#whole{
+    width:100%;
+    height:100%;
+    background-image:url(color.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+
+
+   
+}
+#error{
+    display:none
+}
+#tittle{
+       background-color: rgb(21, 28, 122);
+       width:700px;
+    
+       height:140px;
+       font-size: 70px;
+       color:red;
+       font-weight:500;
+       font-family:'Times New Roman', Times, serif;
+       white-space:nowrap;
+       position:absolute;
+       top:15px;
+       border-radius: 20px;
+       left:300px;
+}
+#word{
+    position:absolute;
+    top:-30%;
+    left:10%;
+}
+#button{
+    font-size:300%;
+    color:red;
+    
+}
+#father{
+    position:absolute;
+   
+    width:1200px;
+    height:350px;
+    left:40px;
+    top:200px;
+}
+
+
+#dady{
+   
+    border:5px solid red;
+    border-radius:10px;
+    width:350px;
+    height:350px;
+    background-image:url(hacker.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: 40%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    cursor:pointer;
+
+    user-select: none;
+
+
+}
+#dady:hover{
+    opacity:0.9;
+}
+#first{
+    position:absolute;
+    opacity:0.5;
+
+    width:350px;
+    height:40px;
+    background-color:white;
+}
+#first p{
+    position:absolute;
+    top:-20%;
+    left:4%;
+    font-size:120%;
+    white-space:nowrap;
+
+}
+
+#dady2{
+   
+    border:5px solid red;
+    border-radius:10px;
+    width:350px;
+    height:350px;
+    background-image:url(coding.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0%;
+    left:35%;
+    cursor:pointer;
+    user-select: none;
+
+
+}
+#dady2:hover{
+    opacity:0.8;
+}
+#first2{
+    position:absolute;
+    opacity:0.5;
+
+    width:350px;
+    height:40px;
+    background-color:white;
+}
+#first2 p{
+    position:absolute;
+    top:-20%;
+    left:4%;
+    font-size:120%;
+    white-space:nowrap;
+
+}
+
+#dady3{
+   
+    border:5px solid red;
+    border-radius:10px;
+    width:350px;
+    height:350px;
+    background-image:url(computer.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: 40%;
+    position:absolute;
+    top:0%;
+    left:70%;
+    cursor:pointer;
+    user-select: none;
+
+
+}
+#dady3:hover{
+    opacity:0.8;
+}
+#first3{
+    position:absolute;
+    opacity:0.5;
+
+    width:350px;
+    height:40px;
+    background-color:white;
+}
+#first3 p{
+    position:absolute;
+    top:-20%;
+    left:4%;
+    font-size:120%;
+    white-space:nowrap;
+
+}
+
+@media all and (min-width:1400px){
+    #tittle{
+        left:30%;
+    }
+    #father{
+        left:14%;
+    }
+
+}
+@media all and (min-width:700px) and (orientation:portrait){
+    
+    #tittle{
+        left:5%;
+        top:3%;
+
+    }
+    
+    
+    
+    #father{
+        
+        height:760px;
+        width:720px;
+        left:3%;
+        
+
+    }
+    #dady{
+        height:250px;
+        width:100%;
+        
+    }
+    #first{
+        width:100%;
+    }
+    #dady2{
+        height:250px;
+        width:100%;
+        top:35%;
+        left:0%;
+
+        
+    }
+    #first2{
+        width:100%;
+    }
+    #dady3{
+        height:250px;
+        width:100%;
+        top:70%;
+        left:0%;
+
+    }
+    #first3{
+        width:100%;
+    }
+
+}
+@media all and (min-width:900px) and (orientation:portrait){
+
+
+    #tittle{
+        left:12%;
+        top:3%;
+
+    }
+    
+    
+    
+    #father{
+        
+        height:760px;
+        width:720px;
+        left:10%;
+        
+
+    }
+    #dady{
+        height:250px;
+        width:100%;
+        
+    }
+    #first{
+        width:100%;
+    }
+    #dady2{
+        height:250px;
+        width:100%;
+        top:35%;
+        left:0%;
+
+        
+    }
+    #first2{
+        width:100%;
+    }
+    #dady3{
+        height:250px;
+        width:100%;
+        top:70%;
+        left:0%;
+
+    }
+    #first3{
+        width:100%;
+    }
+
+
+}
+@media all and (orientation:landscape) and (max-width:1200px){
+    #father{
+        left:0%;
+        width:1150px;
+    }
+    
+}
+
+@media all and (orientation:landscape) and (max-width:1170px){
+    #father{
+        display:none;
+
+    }
+    #tittle{
+        display:none;
+    }
+    #error{
+        display:revert;
+        font-size: 400%;
+        color:red;
+        position:absolute;
+        top:40%;
+        left:8%;
+    }
+
+}
+@media all and (max-width:500px) and (orientation:portrait){
+    
+    #whole{
+        background-image:url(allblack.jpg);
+
+    }
+    #tittle{
+        font-size:33px;
+        left:5%;
+        width:360px;
+        height:100;
+        background-color: rgb(29, 180, 180);
+        color:black;
+        
+    }
+    #word{
+        top:-5%;;
+        left:3%;
+        font-weight: 600;
+    }
+    #father{
+        left:2%;
+        top:120px;
+        height:640px;
+        width:370px;
+
+    }
+    #dady{
+        width: 180px;
+        height:180px;
+        border:2px solid purple;
+
+    }
+    #first{
+
+        width:100%;
+        font-size: 70%;
+
+    }
+    #first p{
+        left :10%;
+        white-space:wrap;
+    }
+    #dady2{
+        width: 180px;
+        height:180px;
+        border:2px solid purple;
+
+        left:50%;
+        top:30%;
+    }
+    #first2{
+
+        width:100%;
+        font-size: 70%;
+
+    }
+    #first2 p{
+        left :10%;
+        white-space:wrap;
+    }
+    #dady3{
+        width: 180px;
+        height:180px;
+        border:2px solid purple;
+
+        left:0%;
+        top:60%;
+        
+    }
+    #first3{
+
+        width:100%;
+        font-size: 70%;
+
+    }
+    #first3 p{
+        left :10%;
+        white-space:wrap;
+    }
+
+}
+@media all and (max-width:375px) and (orientation:portrait){
+    #father{
+        display:none
+    }
+    #tittle{
+        display:none;
+    }
+    #error{
+        display:revert;
+        font-size:200%;
+        top:10%;
+        left:2%;
+        color:red;
+        position:absolute;
+
+
+    }
+}
+@media all and (max-width:380px) and (orientation:portrait){
+    #tittle{
+        left:2%;
+    }
+    #dady{
+        
+        width:140px;
+        height:140px;
+    }
+    #dady2{
+        top:25%;
+        width:140px;
+        height:140px;
+    }
+    #dady3{
+        top:50%;
+        width:140px;
+        height:140px;
+    }
+    
+}
+@media all and (orientation:portrait) and (min-height:840px) and (max-width:500px){
+    #father{
+        top:230px
+    }
+    #tittle{
+        top:50px
+    }
+
+
+
+
+
+}

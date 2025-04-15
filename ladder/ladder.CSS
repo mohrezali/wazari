@@ -1,0 +1,1438 @@
+body{
+    padding:0%;
+    margin:0%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-image:url("c221c957092339.59c8dfa58d6d7.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    -webkit-tap-highlight-color: transparent;
+    outline:none !important;
+
+
+
+
+}
+#Whole{
+    position:relative;
+    width:100%;
+    height:100%;
+    outline:none !important;
+    user-select: none;
+
+
+}
+
+#game{
+    position:absolute;
+    width:600px;
+    top:100px;
+    background-color:rgb(158, 5, 5);
+    cursor:pointer;
+    border:8px solid black;
+    height:300px;
+    left:25%;
+    -webkit-tap-highlight-color: transparent;
+    outline:none !important;
+
+}
+
+
+.tittle{
+    font-size:360%;
+    color:black;
+    position:absolute;
+    left:40%;
+    top:15%;
+    font-weight:500;
+
+}
+.tittle2{
+     font-size:260%;
+    color:black;
+    position:absolute;
+    left:8%;
+    top:20%;
+    font-weight:600;
+
+
+}
+.tittle3{
+    display:none;
+    font-size:40px;
+    top:140px;
+    font-weight:400;
+}
+
+
+#play{
+    width:20%;
+    height:20%;
+    background-color:darkgoldenrod;
+    position:absolute;
+    top:70%;
+    left:40%;
+    border-radius:10px;
+    -webkit-tap-highlight-color: transparent;
+    outline:none !important;
+
+}
+#play p{
+    position:absolute;
+    font-size:300%;
+    top:-80%;
+    left:13%;
+    font-weight:400;
+    -webkit-tap-highlight-color: transparent;
+    outline:none !important;
+
+}
+#emoji{
+    background-image:url('emo-emojis.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:70px;
+    height:50px;
+    border:solid ;
+    position:absolute;
+    left:100px;
+    top:150px;
+
+}
+#box1{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:0px;
+}
+#box2{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:50px;
+}
+#box3{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:100px;
+}
+#box4{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:150px;
+}
+#box5{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:200px;
+}
+#box6{
+    position:absolute;
+    width:70px;
+    height:50px;
+    border:black solid 3px;
+    left:100px;
+    top:250px;
+}
+
+
+.animation1{
+    width:50px;
+    height:100px;
+    background-color:rgb(71, 71, 71);
+    position:absolute;
+    animation:5s animation infinite linear 1s;
+    top:200px;
+    left:550px;
+
+}
+
+@keyframes animation{
+    0%{
+        left:560px;
+    }
+    100%{
+        left:0px;
+    }
+}
+
+
+
+.animation2{
+    width:50px;
+    height:175px;
+    background-color:rgb(99, 6, 15);
+    position:absolute;
+    animation:5s animation infinite linear 2s;
+    top:125px;
+    left:550px;
+}
+
+
+.animation3{
+    width:50px;
+    height:120px;
+    background-color:rgb(5, 54, 42);
+    position:absolute;
+    animation:5s animation infinite linear 4s;
+    top:0px;
+    left:550px;
+}
+
+.animation4{
+    width:50px;
+    height:150px;
+    background-color:black;
+    position:absolute;
+    animation:5s animation infinite linear 5s;
+    top:150px;
+    left:550px;
+}
+
+.animation5{
+    width:50px;
+    height:190px;
+    background-color:rgb(71, 71, 71);;
+    position:absolute;
+    animation:5s animation infinite linear 0s;
+    top:0px;
+    left:550px;
+
+}
+
+.animation6{
+    width:50px;
+    height:150px;
+    background-color:rgb(99, 6, 15);
+    position:absolute;
+    animation:5s animation infinite linear 2s;
+    top:150px;
+    left:550px;
+}
+.animation7{
+    width:50px;
+    height:120px;
+    background-color:rgb(5, 54, 42);
+    position:absolute;
+    animation:5s animation infinite linear 3s;
+    top:0px;
+    left:550px;
+}
+.animation8{
+    width:50px;
+    height:240px;
+    background-color:black;
+    position:absolute;
+    animation:5s animation infinite linear 6s;
+    top:60px;
+    left:550px;
+}
+
+.animation9{
+    width:50px;
+    height:143px;
+    background-color:rgb(71, 71, 71);;
+    position:absolute;
+    animation:2s animation infinite linear 0s;
+    top:0px;
+    left:550px;
+
+
+}
+.animation10{
+    width:50px;
+    height:100px;
+    background-color:rgb(99, 6, 15);
+    position:absolute;
+    animation:2s animation infinite linear 1s;
+    top:200px;
+    left:550px;
+}
+.animation11{
+    width:50px;
+    height:190px;
+    background-color:rgb(5, 54, 42);
+    position:absolute;
+    animation:2s animation infinite linear 2.5s;
+    top:0px;
+    left:550px;
+}
+.animation12{
+    width:50px;
+    height:190px;
+    background-color:black;
+    position:absolute;
+    animation:2s animation infinite linear 3.5s;
+    top:110px;
+    left:550px;
+}
+
+.animation13{
+    width: 50px;
+    height: 200px;
+    background-color: rgb(71, 71, 71);;
+    position: absolute;
+    animation: 2s animation infinite linear 0s;
+    top: 0px;
+    left: 550px;
+
+}
+
+.animation14 {
+    width: 50px;
+    height: 180px;
+    background-color: rgb(99, 6, 15);
+    position: absolute;
+    animation: 2s animation infinite linear 1s;
+    top: 50px;
+    left: 550px;
+}
+
+.animation15{
+    width:50px;
+    height:140px;
+    background-color:rgb(5, 54, 42);
+    position:absolute;
+    animation:2s animation infinite linear 2.5s;
+    top:160px;
+    left:550px;
+}
+
+.animation16{
+    width:50px;
+    height:120px;
+    background-color:black;
+    position:absolute;
+    animation:2s animation infinite linear 3.5s;
+    top:0px;
+    left:550px;
+}
+
+
+.animation17{
+    width: 50px;
+    height: 150px;
+    background-color: rgb(208, 12, 166);
+    position: absolute;
+    animation: 2s animation infinite linear 0s;
+    top: 150px;
+    left: 550px;
+
+}
+
+
+
+
+
+
+.animation19{
+    width:50px;
+    height:210px;
+    background-color:rgb(5, 54, 42);
+    position:absolute;
+    animation:2s animation infinite linear 1s;
+    top:50px;
+    left:550px;
+}
+
+.animation20{
+    width:50px;
+    height:235px;
+    background-color:black;
+    position:absolute;
+    animation:2s animation infinite linear 2.5s;
+    top:0px;
+    left:550px;
+}
+
+
+.message{
+    color:red;
+    font-size:500%;
+    position:absolute;
+    left:14%;
+}
+#restart{
+    width:150px;
+    min-width:150px;
+    min-height:75px;
+    height:75px;
+    background-color:black;
+    cursor:pointer;
+    position:absolute;
+    border-radius:10px;
+    left:43%;
+    top:15px;
+
+
+
+}
+#restart p{
+    color:red;
+    font-size:250%;
+    left:10%;
+
+    top:-40%;
+    position:absolute;
+}
+
+#restart2{
+    width:150px;
+    height:75px;
+    background-color:black;
+    cursor:pointer;
+    position:absolute;
+    border-radius:10px;
+    left:43%;
+    top:15px;
+
+
+
+}
+#restart2 p{
+    color:red;
+    font-size:250%;
+    left:10%;
+
+    top:-40%;
+    position:absolute;
+}
+
+#restart3{
+    width:150px;
+    height:75px;
+    background-color:black;
+    cursor:pointer;
+    position:absolute;
+    border-radius:10px;
+    left:43%;
+    top:15px;
+
+
+
+}
+
+#restart3 p{
+    color:red;
+    font-size:250%;
+    left:10%;
+
+    top:-40%;
+    position:absolute;
+}
+
+#restart4{
+    width:150px;
+    height:75px;
+    background-color:black;
+    cursor:pointer;
+    position:absolute;
+    border-radius:10px;
+    left:43%;
+    top:15px;
+
+
+
+}
+
+#restart4 p{
+    color:red;
+    font-size:250%;
+    left:10%;
+
+    top:-40%;
+    position:absolute;
+}
+
+#restart5{
+    width:150px;
+    height:75px;
+    background-color:black;
+    cursor:pointer;
+    position:absolute;
+    border-radius:10px;
+    left:43%;
+    top:15px;
+
+
+
+}
+
+#restart5 p{
+    color:red;
+    font-size:250%;
+    left:10%;
+
+    top:-40%;
+    position:absolute;
+}
+
+.pass{
+    position:absolute;
+    left:17%;
+    font-size:350%;
+    color:darkred;
+}
+.pass2{
+    position:absolute;
+    left:17%;
+    font-size:300%;
+    color:darkred;
+    top:40%;
+}
+.pass3{
+    display:none
+}
+#homebutton{
+    width:140px;
+    height:70px;
+    border-radius:10px;
+    left:43%;
+    margin:1%;
+    top:69%;
+    background-color:darkred;
+    position:absolute;
+    cursor:pointer;
+}
+
+#homebutton p{
+    color:darkgoldenrod;
+    font-size:250%;
+    left:18%;
+    top:-40%;
+    position:absolute;
+}
+.level1 {
+    width: 20%;
+    height: 15%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 230%;
+    font-weight: 600;
+}
+
+.level2{
+    width:20%;
+
+    height:15%;
+    background-color:darkgoldenrod;
+    position:absolute;
+    top:20%;
+    left:35%;
+    border-radius:10px;
+    padding:2%;
+    font-size:230%;
+    font-weight:600;
+}
+.level3{
+    width:20%;
+    height:15%;
+    background-color:darkgoldenrod;
+    position:absolute;
+    top:20%;
+    left:64%;
+    border-radius:10px;
+    padding:2%;
+    font-size:230%;
+    font-weight:600;
+}
+
+.level4{
+    width:20%;
+    height:15%;
+    background-color:darkgoldenrod;
+    position:absolute;
+    top:50%;
+    left:20%;
+    border-radius:10px;
+    padding:2%;
+    font-size:230%;
+    font-weight:600;
+}
+.level5{
+    width:20%;
+    height:15%;
+    background-color:darkgoldenrod;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:10px;
+    padding:2%;
+    font-size:230%;
+    font-weight:600;
+}
+
+#next1{
+    width:150px;
+    height:90px;
+    border-radius:10px;
+    left:41%;
+    margin:1%;
+    top:415px;
+    min-height:90px;
+    max-height:90px;
+    background-color:black;
+    position:absolute;
+    cursor:pointer;
+
+}
+#next1 p{
+    font-size:210%;
+    left:25%;
+    position:relative;
+    font-weight: 900;
+    top:-30%;
+    color:darkred;
+
+}
+
+#next2{
+    width:150px;
+    height:90px;
+    border-radius:10px;
+    left:41%;
+    margin:1%;
+    top:415px;
+    min-height:90px;
+    max-height:90px;
+    background-color:black;
+    position:absolute;
+    cursor:pointer;
+
+}
+#next2 p{
+    font-size:210%;
+    left:25%;
+    position:absolute;
+    font-weight: 900;
+    top:-30%;
+    color:darkred;
+
+}
+
+#next3{
+    width:150px;
+    height:90px;
+    border-radius:10px;
+    left:41%;
+    margin:1%;
+    top:415px;
+    min-height:90px;
+    max-height:90px;
+    background-color:black;
+    position:absolute;
+    cursor:pointer;
+}
+#next3 p{
+    font-size:210%;
+    left:25%;
+    position:absolute;
+    font-weight: 900;
+    top:-30%;
+    color:darkred;
+
+}
+#next4{
+    width:150px;
+    height:90px;
+    border-radius:10px;
+    left:41%;
+    margin:1%;
+    top:415px;
+    min-height:90px;
+    max-height:90px;
+    background-color:black;
+    position:absolute;
+    cursor:pointer;
+}
+#next4 p{
+    font-size:210%;
+    left:25%;
+    position:absolute;
+    font-weight: 900;
+    top:-30%;
+    color:darkred;
+
+}
+
+#menub{
+    width:130px;
+    height:70px;
+    background-color:darkred;
+    position:absolute;
+    top:70%;
+    left:44%;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+
+#menub p{
+    position:absolute;
+    font-size:300%;
+    top:-55%;
+    left:8%;
+    font-weight:400;
+}
+@media all and (max-width:920px) and (max-height:1200px) and (orientation:portrait){
+    #game{
+        left:10%;
+    }
+    #homebutton{
+        top:45%;
+    }
+    #menub{
+        top:45%;
+        height:70px
+
+    }
+}
+
+
+@media all and (orientation:landscape) and (max-height:500px) {
+    #game{
+        top:3%;
+        left:10%;
+        position:absolute;
+       
+    }
+    .level1 {
+        height: 24%;
+        top: 5%;
+        left: 6%;
+        
+    }
+    .level2{
+        height:24%;
+        top:5%;
+
+    }
+    .level3{
+        height:24%;
+        top:5%;
+
+    }
+
+    .level4{
+        height:24%;
+        top:40%;
+    }
+    .level5{
+        height:24%;
+        top:40%;
+    }
+    #homebutton{
+        left:36%;
+    }
+    #homebutton p{
+        left:10%;
+    
+    }
+    #restart{
+        top:5%;
+        left:37%;
+        border:3px solid red;
+        width:160px;
+
+    }
+    #restart2{
+        top:5%;
+        left:37%;
+        border:3px solid red;
+        width:160px;
+
+    }
+    #restart3{
+        top:5%;
+        left:37%;
+        border:3px solid red;
+        width:160px;
+
+    }
+    #restart4{
+        top:5%;
+        left:37%;
+        border:3px solid red;
+        width:160px;
+
+    }
+    #restart5{
+        top:5%;
+        left:37%;
+        border:3px solid red;
+        width:160px;
+
+    }
+    #restart p{
+        left:7%;
+    }
+    #restart2 p{
+        left:7%;
+    }
+    #restart3 p{
+        left:7%;
+    }
+    #restart4 p{
+        left:7%;
+    }
+    #restart5 p{
+        left:7%;
+    }
+    #next1{
+        top:60%;
+        left:40%;
+    }
+    #next2{
+        top:60%;
+        left:40%;
+    }
+    #next3{
+        top:60%;
+        left:40%;
+    }
+    #next4{
+        top:60%;
+        left:40%;
+        
+    }
+    #next1 p{
+        left:20%;
+    }
+    #next2 p{
+        left:20%;
+    }
+    #next3 p{
+        left:20%;
+    }
+    #next4 p{
+        left:20%;
+    }
+    #menub{
+        top:60%;
+        left:40%;
+        border:3px solid red;
+        height:70px;
+        width:150px;
+    }
+    #menub p{
+        top:-60%;
+    }
+    .pass{
+        top:0%;
+    }
+    .pass2{
+        top:25%;
+        left:20%;
+    }
+    
+
+}
+
+@media all and (max-width:500px) and (orientation:portrait){
+    body{
+        background-image: url('pexels-brotherkehn-3849167.jpg');
+
+
+    }
+    #game{
+        background-color:none;
+        width:340px;
+        height:500px;
+        left:5%;
+        touch-action:none;
+    }
+    .tittle{
+        left:70px;
+        top:0px;
+        font-size:80px;
+
+    }
+    .tittle2{
+        left:32px;
+        font-size:50px;
+        top:90px;
+        font-weight:800;
+        color:rgb(4, 3, 3);
+        white-space:nowrap;
+    }
+    .tittle3{
+        position:absolute;
+        display:revert;
+        font-size:50px;
+        font-weight:600;
+        color:blue;
+        top:180px;
+        left:0px;
+        white-space:nowrap;
+    }
+    #play{
+        background-color:red;
+        width:150px;
+        height:80px;
+        left:95px;
+        color:white;
+
+    }
+    #play p{
+        font-size:50px;
+        top:-40px;
+        left:20px;
+        font-weight:600;
+
+    }
+    .level1{
+        font-size:30px;
+        width:100px;
+        top:20%;
+        left:0px
+
+    }
+    .level2{
+        font-size:30px;
+        width:100px;
+        top:20%;
+        left:220px;
+    }
+    .level3{
+        font-size:30px;
+        width:100px;
+        top:50%;
+        left:0px;
+    }
+    .level4{
+        font-size:30px;
+        width:100px;
+        top:50%;
+        left:220px;
+    }
+    .level5{
+        font-size:30px;
+        width:100px;
+        top:80%;
+        left:115px;
+        color:black;
+        background-color:darkred;
+        border:3px solid darkred;
+    }
+    #box1{
+        height:83.3px;
+        top:0px;
+        left:40px;
+        border:red 3px solid;
+
+    }
+    #box2{
+        height:83.3px;
+        top:83.3px;
+        left:40px;
+        border:red 3px solid;
+    }
+    #box3{
+        height:83.3px;
+        top:166.6px;
+        left:40px;
+        border:red 3px solid;
+
+    }
+    #box4{
+        height:83.3px;
+        top:249.9px;
+        left:40px;
+        border:red 3px solid;
+    }
+    #box5{
+        height:83.3px;
+        top:333.2px;
+        left:40px;
+        border:red 3px solid;
+
+    }
+    #box6{
+        height:80px;
+        top:416.5px;
+        left:40px;
+        border:red 3px solid;
+    }
+    #emoji{
+        height:83.3px;
+        left:40px;
+        top:166.6px;
+        border:red 3px solid;
+
+    }
+
+    @keyframes animation{
+        0%{
+            left:120%;
+            visibility: revert;
+        }
+        100%{
+            left: -20%;
+            visibility:revert;
+        }
+    }
+    .animation1{
+    height:200px;
+    top:300px;
+    left:340px;
+    visibility:hidden;
+    }
+
+    .animation2{
+    height:300px;
+    top:200px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation3{
+    height:220px;
+    top:0px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation4{
+    height:340px;
+    top:160px;
+    left:340px;
+    visibility:hidden;
+    }
+
+    .animation5{
+    height:219px;
+    top:0px;
+    left:340px;
+    visibility:hidden;
+
+    }
+
+    .animation6{
+    height:250px;
+    top:250px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation7{
+    height:220px;
+    top:0px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation8{
+    height:380px;
+    top:120px;
+    left:340px;
+    visibility:hidden;
+    }
+
+    .animation9{
+    height:243px;
+    top:0px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation10{
+    height:200px;
+    top:300px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation11{
+    height:310px;
+    top:0px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation12{
+    height:300px;
+    top:200px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation13{
+    height: 400px;
+    top: 0px;
+    left: 340px;
+    visibility:hidden
+    }
+    .animation14 {
+    height: 250px;
+    top: 100px;
+    left: 340px;
+    visibility:hidden
+    }
+    .animation15{
+    height:280px;
+    top:220px;
+    left:340px;
+    visibility:hidden;
+    }
+    .animation16{
+    height:150px;
+    top:0px;
+    left:340px;
+    visibility: hidden;
+    }
+    .animation17{
+    height: 270px;
+    top: 230px;
+    left: 340px;
+    visibility: hidden;
+    }
+    .animation18{
+            height: 270px;
+            top: 0px;
+            left: 340px;
+            visibility: hidden;
+    }
+    .animation19{
+    height:210px;
+    top:130px;
+    left:340px;
+    visibility: hidden;
+    }
+
+    .animation20{
+    height:150px;
+    top:0px;
+    left:340px;
+    visibility: hidden;
+    }
+
+
+    #restart{
+        top:60%;
+        left:30%;
+        background-color:red;
+       
+        border:5px solid black;
+        width:170px;
+    }
+    #restart p{
+        left:7%;
+        color:black;
+        font-weight:600;
+    }
+    #restart2{
+        top:60%;
+        left:30%;
+        background-color:red;
+       
+        border:5px solid black;
+        width:170px;
+    }
+    #restart3{
+        top:60%;
+        left:30%;
+        background-color:red;
+       
+        border:5px solid black;
+        width:170px;
+    }
+    #restart4{
+        top:60%;
+        left:30%;
+        background-color:red;
+       
+        border:5px solid black;
+        width:170px;
+    }
+    #restart5{
+        top:60%;
+        left:30%;
+        background-color:red;
+       
+        border:5px solid black;
+        width:170px;
+    }
+    #restart2 p{
+        left:7%;
+        color:black;
+        font-weight:600;
+    }
+    #restart3 p{
+        left:7%;
+        color:black;
+        font-weight:600;
+    }
+    #restart4 p{
+        left:7%;
+        color:black;
+        font-weight:600;
+    }
+    #restart5 p{
+        left:7%;
+        color:black;
+        font-weight:600;
+    }
+    .message{
+        font-size:600%;
+    }
+    #next1{
+    
+            width:160px;
+            height:100px;
+            border-radius:10px;
+            left:40%;
+            margin:1%;
+           background-color:white;
+           color:black;
+           top:60%;
+           left:30%
+            
+        
+        
+    }
+    #next2{
+       
+        width:160px;
+        height:100px;
+        border-radius:10px;
+        left:40%;
+        margin:1%;
+       background-color:white;
+       color:black;
+       top:60%;
+       left:30%
+    }
+    #next3{
+        
+        width:160px;
+        height:100px;
+        border-radius:10px;
+        left:40%;
+        margin:1%;
+       background-color:white;
+       color:black;
+       top:60%;
+       left:30%
+    }
+    #next4{
+        
+        width:160px;
+        height:100px;
+        border-radius:10px;
+        left:40%;
+        margin:1%;
+       background-color:white;
+       color:black;
+       top:60%;
+       left:30%
+       
+    }
+    #next1 p{
+        color:rgb(14, 18, 59);
+        left:20%;
+    }
+    #next2 p{
+        color:rgb(14, 18, 59);
+        left:20%;
+    }
+    #next3 p{
+        color:rgb(14, 18, 59);
+        left:20%;
+    }
+    #next4 p{
+        color:rgb(14, 18, 59);
+        left:20%;
+    }
+    .pass{
+
+        font-size:40px;
+        top:0%;
+        left:3%;
+        color:blue;
+        
+
+
+    }
+    
+    .pass2{
+        font-size:50px;
+        left:9%;
+        color:blue;
+        top:20%;
+    }
+    .pass3{
+        position:absolute;
+        font-size:50px;
+        left:22%;
+        color:blue;
+        top:40%;
+        display:revert;
+        font-weight:700;
+        text-decoration: underline;
+   
+
+    }
+    #menub{
+        top:60%;
+        left:30%;
+        width:160px;
+        height:80px;
+      
+    }
+    #menub p{
+        font-size:50px;
+        top:-40px;
+        left:12px;
+    }
+
+    #homebutton{
+        width:140px;
+        height:70px;
+        border-radius:10px;
+        left:32%;
+        top:5%;
+        background-color:darkred;
+        position:absolute;
+        cursor:pointer;
+    }
+    
+    #homebutton p{
+        color:darkgoldenrod;
+        font-size:250%;
+        left:10%;
+        top:-40%;
+        position:absolute;
+    }
+}
+@media all and (orientation:landscape) and (max-width:700px) and (max-height:500px){
+    #game{
+        left:4%;
+        top:4%;
+    }
+    #restart p{
+        left:10%;
+    }
+    #restart2 p{
+        left:10%;
+    }
+    #restart3 p{
+        left:10%;
+    }
+    #restart4 p{
+        left:10%;
+    }
+    #restart5 p{
+        left:10%;
+    }
+    
+
+}
+@media all and (min-height:390px) and (max-height:500px) and (orientation:landscape) {
+    #play{
+        background-color: blue;
+    }
+    #game{
+        top:6%;
+        left:15%;
+    }
+    #homebutton{
+        top:61%;
+        left:39%;
+
+    }
+    #restart{
+        top:8%;
+        left:40%;
+    }
+    #restart2{
+        top:8%;
+        left:40%;
+    }
+    #restart3{
+        top:8%;
+        left:40%;
+    }
+    #restart4{
+        top:8%;
+        left:40%;
+    }
+    #restart5{
+        top:8%;
+        left:40%;
+    }
+
+
+
+}
+@media all and (min-width:390px) and (max-width:450px) and (orientation:portrait){
+    #play{
+        background-color: gold;
+    }
+    .tittle{
+        left:100px;
+        top:0px;
+        font-size:80px;
+
+    }
+    .tittle2{
+        left:60px;
+        font-size:50px;
+        top:90px;
+        font-weight:800;
+        color:rgb(4, 3, 3);
+        white-space:nowrap;
+    }
+    .tittle3{
+        position:absolute;
+        display:revert;
+        font-size:50px;
+        font-weight:600;
+        color:blue;
+        top:180px;
+        left:10px;
+        white-space:nowrap;
+    }
+    #play{
+        background-color:red;
+        width:150px;
+        height:80px;
+        left:110px;
+        color:white;
+
+    }
+
+}
+@media all and (max-width:300px) and (orientation:portrait){
+    #game{
+        display:none;
+
+    }
+    
+}
+@media all and (min-width:1500px) and (orientation:landscape){
+    #game{
+        left:40%;
+    }
+    #homebutton{
+        left:47%;
+    }
+    #restart{
+        left:50%;
+    }
+
+
+}
+
+
+
+
+

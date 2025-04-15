@@ -1,0 +1,163 @@
+body{
+    margin:0%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    background-color:limegreen;
+
+}
+#error{
+    font-size:400%;
+    display:none;
+
+}
+#game{
+    text-align:center;
+    border:3px solid ;
+    position:absolute;
+    left:35%;
+    top:50px;
+    position:absolute;
+}
+#con{
+   position:absolute;
+   width:140px;
+   height:140px;
+   
+   left:50%;
+   top:340px;
+}
+#score{
+    font-family:"Times New Roman";
+    font-size:700%;
+    left:9%;
+    position:absolute;
+    top:17%;
+}
+#scoren{
+    font-family:'Times New Roman';
+    font-size:500%;
+    position:absolute;
+    left:5%;
+    top:5%;
+    text-decoration: underline;
+
+}
+#resetb{
+    font-size:45px;
+    width:140px;
+    height:140px;
+    border:10px solid black;
+    border-radius:50%;
+    cursor:pointer;
+    position:absolute;
+    background-color:red;
+    color:black;
+    font-weight:600;
+
+}
+@media all and (max-width:779px){
+    body{
+        background-color:red;
+    }
+    #error{
+        display:revert;
+    }
+    #game{
+        display:none;
+    }
+    #score{
+        display:none;
+    }
+    #scoren{
+        display:none;
+    }
+    #resetb{
+        display:none;
+    }
+    #con{
+        display:none;
+    }
+
+
+}
+@media all and (max-height:570px){
+    body{
+        background-color:red;
+    }
+    #error{
+        display:revert;
+    }
+    #game{
+        display:none;
+    }
+    #score{
+        display:none;
+    }
+    #scoren{
+        display:none;
+    }
+    #resetb{
+        display:none;
+    }
+    #con{
+        display:none;
+    }
+
+}
+@media all and (orientation:portrait) and (max-width:500px){
+    body{
+        background-color:blue;
+
+    }
+    #error{
+        display:revert;
+    }
+    #game{
+        display:none;
+    }
+    #score{
+        display:none;
+    }
+    #scoren{
+        display:none;
+    }
+    #resetb{
+        display:none;
+
+    }
+    #con{
+        display:none;
+    }
+
+}
+@media all and (min-width:500px) and (orientation:portrait){
+
+   
+    body{
+        background-color:blue;
+
+    }
+    #error{
+        top:10%;
+        display:revert;
+    }
+    #game{
+        display:none;
+    }
+    #score{
+        display:none;
+    }
+    #scoren{
+        display:none;
+    }
+    #resetb{
+        display:none;
+
+    }
+    #con{
+        display:none;S
+    }
+
+
+
+}

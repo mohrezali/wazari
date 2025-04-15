@@ -1,0 +1,780 @@
+body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+    user-select: none;
+    
+}
+#error{
+    display:none;
+}
+#whole{
+    width:100%;
+    height:100%;
+    background-image:url('cover.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-y: hidden;
+    user-select: none;
+    
+}
+#tittle{
+   
+    width:550px;
+    height:100px;
+    background-color:rgb(0, 0, 0);
+    opacity:0.9;
+    border-radius:15px;
+    left:28%;
+    position:absolute;
+    top:5%;
+    border:10px solid rgb(19, 19, 19);
+    white-space:nowrap;
+    
+    
+
+    
+}
+#kid{
+    position:absolute;
+    font-size:400%;
+    left:5%;
+    top:-50%;
+    animation:big 8s linear 2s  2   ;
+   color:rgb(203, 9, 9);
+   font-family:Georgia, Times, 'Times New Roman', serif;
+   font-weight: 600;
+   
+}
+@keyframes big{
+    0%{
+        font-size:200%;
+        left:0%;
+        top:30%;
+        font-weight:600;
+        
+        
+        
+    }
+    16.67%{
+        font-size:200%;
+        left:20%;
+        top:-30%;
+        font-weight:600;
+        
+
+        
+    }
+    33.34%{
+        font-size:200%;
+        left:40%;
+        top:30%;
+        font-weight:600;
+       
+        
+
+    }
+    50.01%{
+        font-size:200%;
+        left:50%;
+        top:-30%;
+        font-weight:600;
+       
+        
+
+    }
+    66.68%{
+        font-size:200%;
+        left:40%;
+        top:30%;
+        font-weight:600;
+       
+    }
+    83.35%{
+        font-size:200%;
+        left:20%;
+        top:-30%;
+        font-weight:600;
+      
+        
+    }
+
+    100%{
+        font-size:200%;
+        left:0%;
+        top:30%;
+        font-weight:600;
+        
+    }
+
+}
+#game{
+    color:rgb(35, 10, 161);
+    position:absolute;
+    font-size:80px;
+    top:95px;
+    left:10%;
+    user-select: none;
+}
+
+#box1{
+    width:350px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:320px;
+    border:solid rgb(41, 0, 145) 7px;
+    user-select: none;
+    
+   
+
+   
+    left:5%;
+}
+
+#dady{
+    width:25%;
+    height:100%;
+    background-color:black;
+    border-radius: 5px;
+    
+    background-image: url(alien.png);
+    background-size:contain;
+   
+    background-repeat: no-repeat;
+    position:absolute;
+}
+#text{
+    width:75%;
+    height:99%;
+    background-color:black;
+    position:absolute;
+    left:25%;
+    opacity:0.8;
+    color:rgb(58, 198, 40);
+    position:absolute;
+    
+    
+    align-items: center;
+    font-size:300%;
+
+
+}
+#sam{
+    top:-30%;
+    position:absolute;
+    left:10%;
+}
+
+#box2{
+    width:350px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:200px;
+    border:solid rgb(8, 6, 134) 7px;
+    
+    left:5%;
+}
+
+#dady2{
+    width:25%;
+    height:100%;
+    background-color:black;
+    border-radius: 5px;
+    
+    background-image: url('emo-emojis.png');
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+   
+    background-repeat: no-repeat;
+    position:absolute;
+}
+#text2{
+    width:75%;
+    height:99%;
+    background-color:rgb(28, 28, 28);
+    position:absolute;
+    left:25%;
+   
+    color:rgb(239, 197, 9);
+    position:absolute;
+    white-space: nowrap;
+    
+    
+    align-items: center;
+    font-size:250%;
+
+
+}
+#text2 p{
+    top:-20%;
+    position:absolute;
+    left:5%;
+}
+
+#box3{
+    width:350px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:440px;
+    border:solid rgb(42, 43, 149) 7px;
+    
+    left:5%;
+}
+
+#dady3{
+    width:25%;
+    height:100%;
+    background-color:black;
+    border-radius: 5px;
+    
+    background-image: url('sanke.png');
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+   
+    background-repeat: no-repeat;
+    position:absolute;
+}
+#text3{
+    width:75%;
+    height:99%;
+    background-color:rgb(19, 19, 19);
+    position:absolute;
+    left:25%;
+   
+    color:rgb(212, 52, 24);
+    position:absolute;
+    
+    
+    align-items: center;
+    font-size:300%;
+  
+
+
+}
+#text3 p{
+    top:-30%;
+    position:absolute;
+    left:13%;
+    
+}
+
+#box6{
+    display:none;
+    width:350px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:440px;
+    border:solid rgb(42, 43, 149) 7px;
+    
+    left:5%;
+}
+
+#dady6{
+    width:25%;
+    height:100%;
+    background-color:black;
+    border-radius: 5px;
+    
+    background-image: url('sanke.png');
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+   
+    background-repeat: no-repeat;
+    position:absolute;
+}
+#text6{
+    width:75%;
+    height:99%;
+    background-color:rgb(19, 19, 19);
+    position:absolute;
+    left:25%;
+   
+    color:rgb(212, 52, 24);
+    position:absolute;
+    
+    
+    align-items: center;
+    font-size:300%;
+  
+
+
+}
+#text6 p{
+    top:-30%;
+    position:absolute;
+    left:13%;
+    
+}
+
+#box6{
+    width:200px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:370px;
+    border:solid rgb(211, 8, 25) 7px;
+    
+    left:75%;
+}
+#box4{
+    width:200px;
+    height:80px;
+    border-radius:15px;
+    position:absolute;
+    top:370px;
+    border:solid rgb(211, 8, 25) 7px;
+    
+    left:75%;
+}
+
+
+#text4{
+    width:100%;
+    height:99%;
+    
+    position:absolute;
+   
+   
+    color:rgb(37, 15, 200);
+    position:absolute;
+    border-radius: 5px;
+    background-color:black;
+    
+    background-image: url('calcsvg.svg');
+    background-size:contain;
+    background-position-y: 30%;
+    background-position-x: 50%;
+   
+    background-repeat: no-repeat;
+    
+    align-items: center;
+    font-size:275%;
+  
+
+
+}
+#text4 p{
+    top:-140%;
+    position:absolute;
+    left:4%;
+    
+}
+
+#box5{
+    width:200px;
+    height:250px;
+    border-radius:15px;
+    position:absolute;
+    top:270px;
+    border:solid rgb(211, 8, 25) 7px;
+    
+    left:47%;
+}
+
+
+#text5{
+    width:100%;
+    height:99%;
+    
+    position:absolute;
+   
+   
+    color:rgb(37, 15, 200);
+    position:absolute;
+    border-radius: 5px;
+    background-color:black;
+    
+    background-image: url('hacker.jpg');
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+   
+    background-repeat: no-repeat;
+    
+    align-items: center;
+    font-size:250%;
+  
+
+
+}
+#text5 p{
+    top:-60%;
+    position:absolute;
+    left:6%;
+    
+}
+@media all and (min-width:1260px) and (orientation:landscape){
+   
+    #box1:hover{
+        scale:1.3;
+        left:14%;
+       
+    }
+    
+    #box2:hover{
+        scale:1.3;
+        left:14%;
+       
+    }
+    
+    #box3:hover{
+        scale:1.3;
+        left:14%;
+        
+       
+    }
+
+    #box4:hover{
+        scale:1.3;
+        left:77%;
+        
+       
+    }
+   
+   
+    #box5:hover{
+        scale:1.2;
+        left:49%;
+        
+    }
+    
+}
+@media all and (min-width:1400px) and (orientation:landscape){
+
+    #tittle{
+        left:40%;
+    }
+
+}
+@media all and (min-height:600px) and (orientation:landscape){
+    #tittle{
+        top:3%;
+    }
+}
+@media all and (min-width:1700px) and (orientation:landscape){
+    #game{
+        left:6%;
+    }
+    
+}
+@media all and (max-width:1550px) and (orientation:portrait) {
+    #tittle{
+        left:17%;
+       
+    }
+    #kid{
+        top:-20%;
+        font-size:400%
+    }
+    #game{
+       display:none;
+    }
+    #box2{
+        height:100px;
+        top:25%;
+        left:30%;
+    }
+    #box1{
+        height:100px;
+        top:40%;
+        left:30%;
+    }
+    #dady{
+        background-size:cover;
+        background-position-x:30%;
+    }
+
+    #box3{
+        display:none;
+    }
+    #box5{
+        top:65%;
+        left:10%;
+    }
+    #box4{
+        width:200px;
+        height:250px;
+        left:60%;
+        top:65%;
+
+    }
+    #text4 p{
+        top:-50%;
+
+    }
+
+}
+@media all and (max-width:500px) and (orientation:portrait){
+    
+   
+    #whole{
+        width:100%;
+        height:100%;
+        background-position-x: 40%;
+      
+        background-position:contain;
+        touch-action: none;
+       
+
+        
+    
+       
+    }
+    
+    #tittle{
+
+        background-color:transparent;
+        opacity:2.0;
+        top:10px;
+        
+        border:none;
+        width:320px;
+        height:70px;
+        left:10%;
+        animation:none;
+
+    }
+    #kid{
+        color:goldenrod;
+        top:-30%;
+        font-size:290%;
+       animation:none;
+        font-weight:900;
+        left:1%;
+        
+        
+    }
+    #box1{
+        width:100px;
+        height:100px;
+        top:230px;
+        left:60%;
+
+    }
+    
+    #dady{
+        width:100%;
+    }
+    #text{
+        width:100%;
+        left:0%;
+        opacity:2;
+        background-color:transparent;
+        
+    }
+    #sam{
+        
+        top:-150%;
+        font-size:40px;
+    }
+    #box2{
+        width:100px;
+        height:100px;
+        top:230px;
+        left:5%;
+
+    }
+    #dady2{
+        width:100%;
+    }
+    #text2{
+        width:100%;
+        left:0%;
+        opacity:2;
+        background-color:transparent;
+
+    }
+    #text2 p{
+        top:-140%;
+        font-size:35px;
+        white-space:wrap;
+        
+    }
+    #box3{
+        display:none;
+
+    }
+    #box6{
+        display:revert;
+        width:100px;
+        height:100px;
+        top:400px;
+        left:5%;
+
+    }
+    #dady6{
+        width:100%;
+    }
+    #text6{
+        width:100%;
+        left:0%;
+        opacity:2;
+        background-color:transparent;
+
+    }
+    #text6 p{
+        top:-90%;
+        font-size:35px;
+        white-space:wrap;
+        left:0%;
+        
+    }
+    #box4{
+        width:100px;
+        height:100px;
+        top:400px;
+        left:60%;
+
+    }
+    #dady4{
+        width:100%;
+    }
+    #text4{
+        width:100%;
+        left:0%;
+        opacity:2;
+        background-color:transparent;
+
+    }
+    #text4 p{
+        top:-90%;
+        font-size:35px;
+        white-space:wrap;
+        left:-30%;
+        position:absolute;
+        
+    }
+    #box5{
+      width:200px;
+      height:100px;
+      top:530px;
+      left:20%;
+      border:7px solid rgb(114, 0, 155);
+    }
+    #text5 p{
+        top:-20%;
+        font-size:80%;
+        left:15%;
+        position:absolute;
+    }
+
+    
+
+}
+@media all and (max-width:410px) and (orientation:portrait){
+    #tittle{
+        left:3%;
+    }
+    
+}
+@media all and (max-width:360px) and (orientation:portrait){
+    #error{
+        display:revert;
+        color:red;
+        font-size:400%;
+    }
+    #tittle{
+        display:none;
+    }
+    #box1{
+        display:none;
+    }
+    #box2{
+        display:none;
+    }
+    #box6{
+        display:none;
+    }
+    #box4{
+        display:none;
+    }
+    #box5{
+        display:none;
+    }
+
+
+}
+@media (max-height:550px) and (orientation:landscape){
+
+    #error{
+        display:revert;
+        color:red;
+        font-size:400%;
+        left:3%;
+        top:20%;
+        position:absolute;
+    }
+    #game{
+        display:none;
+    }
+    #tittle{
+        display:none;
+    }
+    #box1{
+        display:none;
+    }
+    #box2{
+        display:none;
+    }
+    #box6{
+        display:none;
+    }
+    #box3{
+        display:none;
+    }
+    #box4{
+        display:none;
+    }
+    #box5{
+        display:none;
+    }
+}
+@media all and (orientation:landscape) and (max-width:852px){
+    #error{
+        display:revert;
+        color:red;
+        font-size:400%;
+        left:3%;
+        top:20%;
+        position:absolute;
+    }
+    #game{
+        display:none;
+    }
+    #tittle{
+        display:none;
+    }
+    #box1{
+        display:none;
+    }
+    #box2{
+        display:none;
+    }
+    #box6{
+        display:none;
+    }
+    #box3{
+        display:none;
+    }
+    #box4{
+        display:none;
+    }
+    #box5{
+        display:none;
+    }
+}
+
+
+
+
+
+
